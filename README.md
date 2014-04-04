@@ -7,7 +7,7 @@ Program A was difficult to program simply because we were unfamiliar with the co
 
 Documentation: received help from C3C Bodin on naming RAM ports in order to use those ports in the program.
 
-## Program B
+### Program B
 
 This program involved basic math, as well as using the input and output ports. For this, the value of RAM had to be manipulated in order to test the program. In this program I used the LDAD command to load the value at a specific port, then I added that value to itself using ADDD to double it. 
 
@@ -15,7 +15,7 @@ In my original program, I stored that value into another RAM port. Next I loaded
 
 The original program accomplished the purpose of the program, but used a larger amount of code and RAM than needed. I edited the program after finishing Program C, which will explain the process of reaching the final product of Program B. Essentially, I just replaced the lines that loaded the value of 4 and subsequently negated the value, instead using the add immediate command with the original doubled number in the accumulator. The operand, then, was the equivalent of -4: C. Using this took away the use of the second RAM port and greatly reduced the amount of code needed.
 
-## Program C
+### Program C
 
 This program created a pattern of gradually decreasing numbers in 3 of the 4 output ports. This turned out to be a relatively simple program, but using the precedent mentioned above of storing values unnecessarily in RAM and loading values just to negate those values, my program went through a couple of changes in order to reduce the amount of code.
 
