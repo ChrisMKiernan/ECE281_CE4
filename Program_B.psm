@@ -4,25 +4,25 @@
 		   03	   E	ADDD	RAM1		N	2	Y
 		   04	   0				Y	0	N
 		   05	   B				Y	0	N
-		   06	   D	STA	RAM2		N	2	Y
-		   07	   1				Y	0	N
-		   08	   B				Y	0	N
-		   09	   7	LDAI	4		N	1	Y
-		   0A	   4				Y	0	N
-		   0B	   1	NEG			N	0	Y
-		   0C	   E	ADDD	RAM2		N	2	Y
-		   0D	   1				Y	0	N
-		   0E	   B				Y	0	N
-		   0F	   4	OUT	2		N	1	Y
-		   10	   2				Y	0	N
-	LOOP	   11	   0	NOP			N	0	Y
-		   12	   9	JMP	LOOP		N	2	Y
-		   13	   1				Y	0	N
-		   14	   1				Y	0	N
-		   15	   0	NOP			N	0	Y
-		   16	   0	NOP			N	0	Y
-		   17	   0	NOP			N	0	Y
-		   18	   0	NOP			N	0	Y
+		   06	   6	ADDI	C		N	1	N
+		   07	   C				Y	0	N
+		   08	   4	OUT	2		N	1	N
+		   09	   2				Y	0	N
+	LOOP	   0A	   0	NOP			N	0	N
+		   0B	   9	JMP	LOOP		N	2	N
+		   0C	   A				Y	0	N
+		   0D	   0				Y	0	N
+		   0E	   0	NOP			N	0	N
+		   0F	   0	NOP			N	0	N
+		   10	   0	NOP			N	0	N
+		   11	   0	NOP			N	0	N
+		   12	   0	NOP			N	0	N
+		   13	   0	NOP			N	0	N
+		   14	   0	NOP			N	0	N
+		   15	   0	NOP			N	0	N
+		   16	   0	NOP			N	0	N
+		   17	   0	NOP			N	0	N
+		   18	   0	NOP			N	0	N
 		   19	   0	NOP			N	0	Y
 		   1A	   0	NOP			N	0	Y
 		   1B	   0	NOP			N	0	Y
@@ -174,8 +174,8 @@
 		   AD	   0	NOP			N	0	Y
 		   AE	   0	NOP			N	0	Y
 		   AF	   0	NOP			N	0	Y
-	RAM1	   B0	   6	
-	RAM2	   B1	   C	
+	RAM1	   B0	   5	
+		   B1	   0	
 		   B2	   0	
 		   B3	   0	
 		   B4	   0	
